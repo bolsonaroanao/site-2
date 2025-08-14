@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+
+.menu a {
+  background-color: #DCDCDC;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: #000000;
+  text-decoration: NONE;
+}
+
+.main {
+  float: left;
+  width: 60%;
+  padding: 0 20px;
+}
+
+.right {
+  background-color: #DCDCDC	;
+  float: left;
+  width: 20%;
+  padding: 15px;
+  margin-top: 7px;
+  text-align: center;
+}
+
+.grade-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.grade-table th, .grade-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.grade-table tr:nth-child(even) {
+  background-color: #ffffff	;
+}
+
+.grade-table th {
+  background-color: #000000	;
+  color: white;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body style="font-family:Verdana;color:#000000;">
+
+<div style="background-color:#000000;padding:15px;text-align:center;color:white;">
+  <h1>Boletim Escolar - Bruno Henrique</h1>
+</div>
+
+<div style="overflow:auto">
+  <div class="menu">
+    <a href="#">Início</a>
+    <a href="#">Matérias</a>
+    <a href="#">Calendário</a>
+    <a href="#">Contato</a>
+  </div>
+
+  <div class="main">
+    <h2>Minhas Notas</h2>
+    <table class="grade-table">
+      <tr>
+        <th>Matéria</th>
+        <th>Nota</th>
+        <th>Situação</th>
+      </tr>
+      <tr>
+        <td>Português</td>
+        <td>7.5</td>
+        <td>Aprovado</td>
+      </tr>
+      <tr>
+        <td>História</td>
+        <td>8.2</td>
+        <td>Aprovado</td>
+      </tr>
+      <tr>
+        <td>Matemática</td>
+        <td>6.9</td>
+        <td>Aprovado</td>
+      </tr>
+      <tr>
+        <td>Biologia</td>
+        <td>9.1</td>
+        <td>Aprovado</td>
+      </tr>
+      <tr>
+        <td>Pensamento Computacional</td>
+        <td>10.0</td>
+        <td>Aprovado</td>
+      </tr>
+    </table>
+    <p>Média Geral: 8.3</p>
+  </div>
+
+  <div class="right">
+    <h2>Sobre</h2>
+    <p>Bruno Henrique</p>
+    <p>Estudante do Ensino Médio</p>
+    <p>Ano: 2025</p>
+  </div>
+</div>
+
+<div style="background-color:#DCDCDC;text-align:center;padding:10px;margin-top:7px;">© 2025 Boletim Escolar - Bruno Henrique</div>
+
+</body>
+</html>
